@@ -1,0 +1,25 @@
+{
+  "name": "twitch-spotify-sync-extension",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "author": "K0rdan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build && next export",
+    "start": "next start",
+    "type-check": "tsc",
+    "docker:build": "docker build -t k0rdan/twitch-spotify-sync-extension ."
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
